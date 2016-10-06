@@ -36,13 +36,17 @@ public class Patata {
     public static void main(String[] args) {
         // TODO code application logic here
         Patata papa=new Patata();
+        
         System.out.println("*** Comienza el programa *** ");
+        
         System.out.println("+ ¿Cómo estás, patata?");
         System.out.println(papa.comoEstas());
+        
         System.out.println("+ Ok. Voy a pelarte y dividirte un par de veces");
         papa.pelar();
         papa.dividir();
         papa.dividir();
+        
         System.out.println("+ ¿Cómo estás ahora?");
         System.out.println(papa.comoEstas());
 
